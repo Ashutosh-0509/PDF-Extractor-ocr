@@ -1,0 +1,35 @@
+# Virtual Environment
+nougat_env/
+venv/
+.venv/
+env/
+
+# Python cache & bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+
+# Pipeline generated outputs
+pipeline_output_*/
+output_nougat*/
+math_extracted_images/
+temp_upload.pdf
+*.zip
+
+# Subdirectory outputs
+**/output_nougat*/
+**/math_extracted_images/
+**/__pycache__/
+**/*.egg-info/
+
+# Logs & temp files
+*.log
+.pytest_cache/
+
+# IDE & OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

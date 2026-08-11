@@ -1,0 +1,13 @@
+streamlit>=1.25.0
+PyMuPDF>=1.22.0
+Pillow>=9.5.0
+torch>=2.0.0
+torchvision
+transformers>=4.25.0
+pypdfium2>=4.0.0
+albumentations
+albucore
+sconf
+nltk
+lightning
+dataset
