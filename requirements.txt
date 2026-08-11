@@ -10,4 +10,4 @@ albucore
 sconf
 nltk
 lightning
-dataset
+datasets

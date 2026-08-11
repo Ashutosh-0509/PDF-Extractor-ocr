@@ -24,7 +24,33 @@ PDF-Extractor-ocr/
 ├── master_pipeline.py     # Core OCR & extraction pipeline script
 ├── requirements.txt       # Project Python dependencies
 ├── .gitignore             # Ignored output folders and virtual environments
+├── sample/                # Sample input PDF & extracted output example
+│   ├── sample_math.pdf
+│   ├── FINAL_OUTPUT.md
+│   └── images/
 └── nougat-main/           # Nougat core engine & model source code
+```
+
+---
+
+## 📁 Sample Input & Output
+
+You can inspect sample input and pipeline extraction outputs in the [`sample/`](./sample) folder:
+- 📄 **Sample Mathematics PDF**: [`sample/sample_math.pdf`](./sample/sample_math.pdf)
+- 📝 **Extracted Markdown Output**: [`sample/FINAL_OUTPUT.md`](./sample/FINAL_OUTPUT.md)
+
+### Sample Output Preview:
+
+```markdown
+Given that \(A^{-1}=\frac{1}{7}\begin{bmatrix}2&1\\ -3&2\end{bmatrix}\), matrix A is :
+
+3. If A = \(\begin{bmatrix}2&1\\ -4&-2\end{bmatrix}\), then the value of \(I-A+A^{2}-A^{3}+...\) is :
+
+![figure](images/page2_figure.png)
+
+\begin{tabular}{|l|c|c|c|c|c|} \hline
+**X** & 0 & 1 & 2 & 3 & 4 \\ \hline
+**P(X)** & 0.1 & k & 2k & k & 0.1 \\ \hline \end{tabular}
 ```
 
 ---
